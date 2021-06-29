@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+const http = require("http");
 
 const app = express();
 
@@ -11,9 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 app.get("/", function(req,res){
-  res.render("home");
+  res.sendFile(__dirname +"/index.html");
 });
 
-app.listen(3000, function(req,res){
-  console.log("Server is running on port 3000");
-});
+app.listen(process.env.port ||3000)
