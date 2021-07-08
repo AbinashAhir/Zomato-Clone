@@ -1,12 +1,3 @@
-
-h1{
-  margin-left: 100px;
-  margin-top: 50px;
-  font-family: Georgia, serif;
-  
-}
-
-
 body, button, input, input::placeholder {
     font-family: Okra,Helvetica,sans-serif;
 }
