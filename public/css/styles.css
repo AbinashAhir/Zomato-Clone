@@ -5,3 +5,70 @@ h1{
   font-family: Georgia, serif;
   
 }
+
+
+body, button, input, input::placeholder {
+    font-family: Okra,Helvetica,sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body{
+  display: block;
+}
+
+div, p, span {
+    font-size: 1.6rem;
+}
+
+div{
+  display: block;
+}
+
+.navbar1{
+  width: 100%;
+  height: 100%;
+}
+
+div.container{
+  padding: 0 0;
+}
+.navbar-nav{
+  padding: 10px 20px;
+  margin: 0 0 0 0;
+}
+
+nav.navbar{
+  padding: 5px 0px;
+}
+li.nav-item.navbar-brand{
+  padding: 3.125px 0px;
+}
+.brandlogo{
+  margin-left: 150px;
+  font-size: 3rem;
+  /* font-weight: bold; */
+  font-weight: 900;
+}
+li{
+  padding: 10px;
+}
+.nav-link{
+  color: #527a7a;
+  font-size: 2rem;
+}
+.nav-link:hover{
+  color: black;
+}
+.login{
+  margin-left: 280px;
+}
+.signup{
+  margin-left: 10px;
+}
