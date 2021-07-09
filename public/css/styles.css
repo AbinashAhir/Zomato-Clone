@@ -1,65 +1,127 @@
 body, button, input, input::placeholder {
-    font-family: Okra,Helvetica,sans-serif;
+  font-family: Okra, Helvetica, sans-serif;
 }
 
 body, html {
-    margin: 0;
-    padding: 0;
-    font-size: 62.5%;
-    font-weight: 300;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0px 20px;
+  font-size: 62.5%;
+  font-weight: 300;
+  box-sizing: border-box;
 }
 
-body{
+body {
   display: block;
 }
 
 div, p, span {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
-div{
+div {
   display: block;
 }
 
-.navbar1{
+.navbar1 {
   width: 100%;
   height: 100%;
 }
 
-div.container{
+div.container {
   padding: 0 0;
 }
-.navbar-nav{
+
+.navbar-nav {
   padding: 10px 20px;
   margin: 0 0 0 0;
 }
 
-nav.navbar{
+nav.navbar {
   padding: 5px 0px;
 }
-li.nav-item.navbar-brand{
+
+li.nav-item.navbar-brand {
   padding: 3.125px 0px;
 }
-.brandlogo{
-  margin-left: 150px;
-  font-size: 3rem;
-  /* font-weight: bold; */
-  font-weight: 900;
+
+.brandlogo {
+  width: 50%;
+  margin-left: 20px;
 }
-li{
+
+div.logo {
+  width: 25%;
+}
+
+li {
   padding: 10px;
 }
-.nav-link{
+
+.nav-link {
   color: #527a7a;
   font-size: 2rem;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   color: black;
 }
-.login{
-  margin-left: 280px;
+
+.login {
+  margin-left: 220px;
 }
-.signup{
-  margin-left: 10px;
+
+.signup {
+  margin-left: 20px;
+}
+
+.navbar2 {
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 0.8rem;
+  box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+}
+
+.location {
+  border: none;
+  font-size: 1.4rem;
+  margin: 0px 1rem 0px 0.5rem;
+}
+
+.search {
+  border: none;
+  font-size: 1.4rem;
+  margin: 0px 1rem 0px 0.5rem;
+}
+
+input:focus-visible {
+  outline-offset: 0px;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.down {
+  transform: rotate(0deg);
+  transition: transform 0.25s ease-in-out 0s;
+  cursor: pointer;
+}
+.drop{
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  display: inline;
+}
+.rot{
+  display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 12px;
+    height: 12px;
+
 }
