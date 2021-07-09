@@ -4,7 +4,7 @@ body, button, input, input::placeholder {
 
 body, html {
   margin: 0;
-  padding: 0px 20px;
+  padding: 0px 0px;
   font-size: 62.5%;
   font-weight: 300;
   box-sizing: border-box;
