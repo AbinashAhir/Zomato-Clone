@@ -59,6 +59,7 @@ li {
 
 .nav-link {
   font-size: 2rem;
+  color:rgb(105, 105, 105);
 }
 
 .nav-link:hover {
