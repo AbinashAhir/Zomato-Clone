@@ -106,25 +106,25 @@ input {
   outline: none;
 }
 
-.down {
-  transform: rotate(0deg);
-  transition: transform 0.25s ease-in-out 0s;
-  cursor: pointer;
-}
-.drop{
-  -moz-transition: all 1s linear;
-  -webkit-transition: all 1s linear;
-  transition: all 1s linear;
-  display: inline;
-}
-.rot{
+.div-inline {
   display: inline-block;
-    vertical-align: middle;
-    line-height: 1;
-    width: 12px;
-    height: 12px;
-
 }
+
+.dropdown-menu {
+  margin-top: 30px;
+  width: 250px !important;
+  height: 70px !important;
+}
+
+
+
+.gps{
+  padding: 10px;
+}
+.gps1{
+  margin-left: 37px;
+}
+
 * {
     padding: 0;
     margin: 0;
