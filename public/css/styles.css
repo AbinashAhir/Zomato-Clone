@@ -186,7 +186,7 @@ input {
 .top {
     display: flex;
     flex-direction: column;
-    margin-right: 6rem;
+    margin-right: 3rem;
 }
 .top a{
     color:#676769;
@@ -195,7 +195,6 @@ input {
     margin-bottom: 0.5rem;
     font-size: 20px;
     line-height: 30px;
-    column-gap: 3px;
 }
 .top a:hover {
     color:rgb(247, 9, 9);
