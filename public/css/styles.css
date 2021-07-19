@@ -176,6 +176,36 @@ input {
     margin-right: 1rem;
     margin-bottom: 0.35rem;
 }
+*{
+    background-color: #f5f5f5;
+}
+.toppart {
+    display: flex;
+    flex-wrap: wrap;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+}
+.top a{
+    color:#676769;
+    font-size: large;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+    line-height: 35px;
+    column-gap: 5px;
+}
+.top a:hover {
+    color:rgb(247, 9, 9);
+    transition: 0.3s ease-out;
+}
+.header {
+    font-size: 20px;
+    margin-top: 4rem;
+}
+
 .container{
     margin:5%;
 }
