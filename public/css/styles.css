@@ -193,9 +193,9 @@ input {
     font-size: large;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    font-size: 22px;
-    line-height: 35px;
-    column-gap: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    column-gap: 3px;
 }
 .top a:hover {
     color:rgb(247, 9, 9);
