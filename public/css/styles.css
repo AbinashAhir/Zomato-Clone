@@ -133,15 +133,15 @@ input {
 .expl2{
         max-width: 72rem;
         margin-top: 0px;
-        margin-right: 2.4rem;
+        margin-right: 1rem;
         margin-bottom: 0px;
-        margin-left: 2.4rem;
+        margin-left: 7rem;
     }
 .expltxt1{
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 3rem;
-        margin-left: 9px;
+        margin-left: 0px;
         color: rgb(54, 54, 54);
         font-size: 3rem;
         line-height: 4rem;
