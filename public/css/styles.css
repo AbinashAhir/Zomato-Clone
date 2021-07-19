@@ -176,6 +176,27 @@ input {
     margin-right: 1rem;
     margin-bottom: 0.35rem;
 }
+.container{
+    margin:5%;
+}
+.cities{
+    float: left;
+    width:20%
+}
+.cities ul{
+    padding: 0;;
+    margin: 0;
+    list-style:none;
+}
+.cities ul li a{
+    font-size: 18px;
+    line-height: 38px;
+    color:rgba(0,0,0,.5);
+    text-decoration: none;
+}
+.cities ul li a:hover{
+    color:#ff6d04;
+}
 
 * {
     padding: 0;
