@@ -186,7 +186,7 @@ input {
 .top {
     display: flex;
     flex-direction: column;
-    margin-right: 3rem;
+    margin-right: 6rem;
 }
 .top a{
     color:#676769;
