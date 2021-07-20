@@ -176,9 +176,6 @@ input {
     margin-right: 1rem;
     margin-bottom: 0.35rem;
 }
-*{
-    background-color: #f5f5f5;
-}
 .toppart {
     display: flex;
     flex-wrap: wrap;
