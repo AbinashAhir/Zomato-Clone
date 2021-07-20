@@ -193,8 +193,8 @@ input {
     font-size: medium;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 10px;
 }
 .top a:hover {
     color:rgb(247, 9, 9);
@@ -203,6 +203,7 @@ input {
 .header {
     font-size: 20px;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .container{
