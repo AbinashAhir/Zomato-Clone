@@ -303,3 +303,7 @@ input {
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
+
+.inspiration-heading{
+padding: 40px 0px;
+}
