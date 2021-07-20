@@ -186,15 +186,15 @@ input {
 .top {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 .top a{
     color:#676769;
     font-size: medium;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 15px;
 }
 .top a:hover {
     color:rgb(247, 9, 9);
