@@ -280,3 +280,26 @@ input {
     color: #414146;
 
 }
+
+
+//week3
+.item1{
+  display: inline;
+}
+
+.carousel-inner {
+   margin-bottom:50px;
+}
+
+.carousel-inner .carousel-item img {
+  display: inline-block;
+}
+
+.inspiration{
+  background-color: #f0f5f5;
+  width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
