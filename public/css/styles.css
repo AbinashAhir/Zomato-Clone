@@ -283,7 +283,7 @@ input {
 
 
 //week3
-.item1{
+/* .item1{
   display: inline;
 }
 
@@ -292,7 +292,7 @@ input {
 }
 
 .carousel-inner .carousel-item img {
-  display: inline-block;
+  display: inline-block; */
 }
 
 .inspiration{
@@ -306,4 +306,24 @@ input {
 
 .inspiration-heading{
 padding: 40px 0px;
+}
+
+.inspiration{
+  background-color: #f0f5f5;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.inspiration-heading{
+padding: 40px 0px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next{
+      bottom: 75%;
 }
