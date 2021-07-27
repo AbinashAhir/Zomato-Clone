@@ -1,10 +1,22 @@
 import "./styles.css";
-import Header from "./components/Header"
+import { Route, Switch } from "react-router";
+import LandingPage from "./components/LandingPage";
+import Error from "./components/Error"
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import { BrowserRouter } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <main className="App">
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={LandingPage}/>
+        <Route path="/" component={Login}/>
+        <Route path="/signup" component={SignUp}/>
+        <Route component={Error}/>
+      </Switch>
+    </BrowserRouter>
+    </main>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react"
+import { Link } from "react-router-dom";
 import brandLogo from "../images/brand_logo.png"
 
 function Logo(){
     return(
         <div className="logo-container">
-            <img src={brandLogo} />
+            <Link to="/"><img src={brandLogo} /></Link>
         </div>
     )
 }
