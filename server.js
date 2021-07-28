@@ -1,15 +1,17 @@
-require('dotenv').config()
+// require('dotenv').config()
 const express = require("express")
 const mongoose = require("mongoose")
-const Cors = require("cors")
+// const Cors = require("cors")
 const app = express()
+const path = require("path")
 const port = process.env.PORT || 3001
 app.use(express.json())
-app.use(Cors())
+app.use(express.static("client/build"))
+// app.use(Cors())
 
 mongo_uri = process.env.MONGO_URI;
 
-mongoose.connect(mongo_uri, {
+mongoose.connect("mongodb+srv://admin-mca:pR67z0zK6eSnKby6@cluster0.o2g5y.mongodb.net/cloudCuisineDb?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex:true   
