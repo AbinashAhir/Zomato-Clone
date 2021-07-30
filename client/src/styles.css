@@ -138,7 +138,8 @@ hr{
   float: left;
 }
 .login-btn a,
-.signup-btn a{
+.signup-btn a,
+.logout-btn a{
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: large;
@@ -147,7 +148,8 @@ hr{
 
 
 .login-btn :hover,
- .signup-btn :hover{
+ .signup-btn :hover,
+ .logout-btn :hover{
   color: black;
 }
 

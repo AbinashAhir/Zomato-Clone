@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import axios from "axios"
 import { withRouter } from "react-router-dom"
+import user from "../user"
 
 
 function SignUpForm(props){
@@ -21,6 +22,8 @@ function SignUpForm(props){
             "email":email,
         }
         addUser(newUser)
+        user.email = newUser.email;
+        user.fullName = newUser.fullName;
         props.history.push("/")
     }
 

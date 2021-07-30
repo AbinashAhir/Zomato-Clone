@@ -4,6 +4,7 @@ import closeImg from "../images/close.png"
 import { Link } from "react-router-dom";
 import Input from "./Input";
 import Button from "./Button";
+import LoginForm from "./LoginForm";
 
 function Login(){
     return(
@@ -17,9 +18,7 @@ function Login(){
                         <Link to="/"><img className="close-img" src={closeImg} alt="close" /></Link>
                     </div>
                     
-                    <Input type="text" placeholder="Full Name"/>
-                    <Input type="email" placeholder="Email"/>
-                    <Button text="Login"/>
+                    <LoginForm/>
 
                     <div className="divider">
                         <p className="or"><span>or</span></p>

@@ -1,17 +1,17 @@
 // require('dotenv').config()
 const express = require("express")
 const mongoose = require("mongoose")
-// const Cors = require("cors")
 const app = express()
 const path = require("path")
 const port = process.env.PORT || 3001
 app.use(express.json())
 app.use(express.static("client/build"))
-// app.use(Cors())
 
-mongo_uri = process.env.MONGO_URI;
+// "mongodb+srv://admin-mca:pR67z0zK6eSnKby6@cluster0.o2g5y.mongodb.net/cloudCuisineDb?retryWrites=true&w=majority"
 
-mongoose.connect("mongodb+srv://admin-mca:pR67z0zK6eSnKby6@cluster0.o2g5y.mongodb.net/cloudCuisineDb?retryWrites=true&w=majority", {
+mongo_uri = process.env.MONGO_URI; 
+
+mongoose.connect("mongodb://localhost:27017/cloudcuisineDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex:true   
@@ -19,7 +19,11 @@ mongoose.connect("mongodb+srv://admin-mca:pR67z0zK6eSnKby6@cluster0.o2g5y.mongod
 
 const userSchema = new mongoose.Schema({
     fullName:String,
-    email:String
+    email:{
+        type:String,
+        required:true,
+        unique:true
+    }
 })
 
 const User = new mongoose.model("User", userSchema)
