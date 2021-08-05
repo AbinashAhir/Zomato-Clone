@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import Header from "./Header"
 import axios from "axios"
+import TabList from "./TabList"
+
 
 function LandingPage(){
 
@@ -17,6 +19,8 @@ function LandingPage(){
     return(
         <div>
             <Header/>
+            <TabList />
+
         </div>
     )
 }
