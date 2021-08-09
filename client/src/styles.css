@@ -215,3 +215,16 @@ hr{
 a{
   text-decoration: none;
 }
+.username{
+  font-size: large;
+  padding: 10px;
+  box-sizing: border-box;
+  width:min-content;
+  margin-top: 10px;
+  position: relative;
+}
+.down-arrow {
+  padding-top: 8px;
+  width: 10px;
+  position: absolute;
+}
