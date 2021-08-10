@@ -219,3 +219,41 @@ text-align: center;
 #fs_rating{
  border: none !important;
 }
+/* filter pop up */
+   .filter-main {
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+    z-index: 1;
+    display: block;
+    padding: 0px;
+}
+@media (min-width: 481px)
+{
+  .filter-main {
+    width: max-content;
+    margin: auto;
+    min-height: 150px;
+    min-width: 20rem;
+    border-radius: 0.6rem;
+    transform: scale(1);
+    box-shadow: rgb(28 28 28 / 15%) 0px 1.2rem 7rem;
+}
+}
+
+.flex-column .nav-link.active{
+  color:rgb(237, 90, 107);
+  border-left-width:5px;
+  border-left-style:solid;
+  border-left-color:rgb(237, 90, 107);
+}
+.flex-column .nav-link{
+  background-color: #fff;
+  color:#000000;
+  margin-right: 2rem; 
+  padding-left:3rem;
+  padding-right:3rem;
+  
+}
+
