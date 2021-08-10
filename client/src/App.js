@@ -14,6 +14,7 @@ export default function App() {
         <Route exact path="/" component={LandingPage}/>
         <Route path="/login" component={Login}/>
         <Route path="/signup" component={SignUp}/>
+        <Route path="/filter" component={Filter} />
         <Route component={Error}/>
       </Switch>
     </main>
