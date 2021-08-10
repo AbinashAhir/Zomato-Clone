@@ -1,4 +1,6 @@
 import React from "react"
+import FilterSection from "./FilterSection";
+
 
 function TabList() {
     return (
