@@ -20,6 +20,7 @@ function TabList() {
                     <div className="tab-pane active" id="delivery">
                         <div className="row border g-0 rounded shadow-sm">
                             <div className="col p-4" >
+                                <FilterSection />
                                 <p>
                                     Retail food delivery is a courier service in which a restaurant, store, or independent food-delivery company delivers food to a customer. An order is typically made either through a restaurant or grocer's website or mobile app, or through a food ordering company. The delivered items can include entrees, sides, drinks, desserts, or grocery items and are typically delivered in boxes or bags.
                                 </p>
