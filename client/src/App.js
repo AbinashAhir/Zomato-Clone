@@ -4,6 +4,8 @@ import LandingPage from "./components/LandingPage";
 import Error from "./components/Error"
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
+import Filter from "./components/Filter";
+
 
 export default function App() {
   return (
