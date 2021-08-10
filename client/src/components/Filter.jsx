@@ -2,7 +2,6 @@ import React from "react"
 import Header from "./Header";
 import closeImg from "../images/close.png"
 import { Link, withRouter } from "react-router-dom"
-import SortBy from "../components/SortBy";
 
 
 
