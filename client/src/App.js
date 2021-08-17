@@ -1,15 +1,10 @@
 import "./styles.css";
-
-
-
-
 import { Route, Switch } from "react-router";
 import LandingPage from "./components/LandingPage";
 import Error from "./components/Error"
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import Filter from "./components/Filter";
-import {FooterContainer} from './container/footer'
 
 
 export default function App() {
@@ -20,10 +15,7 @@ export default function App() {
         <Route path="/login" component={Login}/>
         <Route path="/signup" component={SignUp}/>
         <Route path="/filter" component={Filter} />
-        <Route component={Error}/>
-        
-        <FooterContainer />  
-        
+        <Route component={Error}/>  
       </Switch>
     </main>
   );
