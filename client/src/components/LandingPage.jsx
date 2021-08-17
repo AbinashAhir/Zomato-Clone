@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import Header from "./Header"
 import axios from "axios"
 import TabList from "./TabList"
+import MultiItemCarousel from "./MultiItemCarousel"
 
 
 function LandingPage(){
@@ -20,6 +21,7 @@ function LandingPage(){
         <div>
             <Header/>
             <TabList />
+            <MultiItemCarousel/>
 
         </div>
     )
