@@ -26,16 +26,64 @@ const NextBtn= ((props) => {
     )
 })
 
+const carouselProperties={
+    prevArrow:<PreviousBtn/>,
+            nextArrow:<NextBtn/>,
+            slidesToShow:4,
+            slidesToScroll:2,
+            // centerMode:true,
+            // centerPadding:"170px",
+            responsive:[
+                
+                {
+                    breakpoint:600,
+                    settings:{
+                        slidesToShow:1,
+                        slidesToScroll:1,
+                        centerMode:false,
+                        width:"50%",
+                        height:"50%",
+                        innerWidth:"50%",
+                        outerWidth:"50%",
+                        innerHeight:"50%",
+                        transform:false,
+                        
+                    }
+                },
+                {
+                    breakpoint:769,
+                    settings:{
+                        slidesToShow:1,
+                        slidesToScroll:1,
+                        centerMode:false,
+                        width:"50%",
+                        centerPadding:"170px",
+                    }       
+                },
+                {
+                    breakpoint:992,
+                    settings:{
+                        slidesToShow:3,
+                        slidesToScroll:1,
+                        centerMode:false,
+                    }
+                },
+                {
+                    breakpoint:1200,
+                    settings:{
+                        slidesToShow:4,
+                        slidesToScroll:2,
+                        centerMode:false,
+                    }
+                }
+            ]
+}
+
 const MultiItemCarousel = () => {
     return (
         <div style={{margin:"30px"}}>
             <h1>Trending Foods</h1>
-            <Slider 
-            prevArrow={<PreviousBtn/>}
-            nextArrow={<NextBtn/>}
-            slidesToShow={4}
-            slidesToScroll={2}
-            >
+            <Slider {...carouselProperties}>
 
             {data.map((item)=>(
                 <Card item={item}/>
