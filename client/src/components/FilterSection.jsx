@@ -6,7 +6,7 @@ function FilterSection(props) {
     // const FilterBtn = <div className="filter-btn"><Link to="/filter">Filters</Link></div>
 
     return (
-        <div className="btn-container">
+        <div className="btn-container display-flex justify-space-between">
             <div className="in-btn-container">
                 <div className="inside-btn-container">
                     <div className="in-inside-btn-container">

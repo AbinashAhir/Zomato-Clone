@@ -6,7 +6,7 @@ function TabList() {
     return (
         <div>
             <div className="container">
-                <ul className="nav nav-tabs">
+                <ul className="nav nav-tabs display-flex justify-space-between">
                     <li className="nav-item">
                         <a className="nav-link active" data-bs-toggle="tab" href="#delivery">
                             <img className="circular-square" src="https://img.icons8.com/ios-filled/50/000000/motorcycle-delivery-single-box.png" width="30" height="30" />
