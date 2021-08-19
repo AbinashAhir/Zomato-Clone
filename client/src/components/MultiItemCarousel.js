@@ -38,7 +38,7 @@ const carouselProperties={
                 {
                     breakpoint:600,
                     settings:{
-                        slidesToShow:1,
+                        slidesToShow:2,
                         slidesToScroll:1,
                         centerMode:false,
                         width:"50%",
@@ -53,7 +53,7 @@ const carouselProperties={
                 {
                     breakpoint:769,
                     settings:{
-                        slidesToShow:1,
+                        slidesToShow:2,
                         slidesToScroll:1,
                         centerMode:false,
                         width:"50%",
