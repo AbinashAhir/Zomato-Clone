@@ -30,7 +30,7 @@ const carouselProperties={
     prevArrow:<PreviousBtn/>,
             nextArrow:<NextBtn/>,
             slidesToShow:4,
-            slidesToScroll:2,
+            slidesToScroll:1,
             // centerMode:true,
             // centerPadding:"170px",
             responsive:[
@@ -81,8 +81,8 @@ const carouselProperties={
 
 const MultiItemCarousel = () => {
     return (
-        <div style={{margin:"30px"}}>
-            <h1>Trending Foods</h1>
+        <div style={{margin:"30px", backgroundColor:"rgb(248, 248, 248)"}}>
+            <h1>Inspiration for your first order</h1>
             <Slider {...carouselProperties}>
 
             {data.map((item)=>(
